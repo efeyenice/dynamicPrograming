@@ -91,6 +91,12 @@ build CMakeFiles/dynamicPrograming.dir/temp/uniquePaths2/main.cpp.o: CXX_COMPILE
   OBJECT_DIR = CMakeFiles/dynamicPrograming.dir
   OBJECT_FILE_DIR = CMakeFiles/dynamicPrograming.dir/temp/uniquePaths2
 
+build CMakeFiles/dynamicPrograming.dir/triangle/main.cpp.o: CXX_COMPILER__dynamicPrograming_unscanned_Debug /Users/macbookpro/Desktop/dynamicPrograming/triangle/main.cpp || cmake_object_order_depends_target_dynamicPrograming
+  DEP_FILE = CMakeFiles/dynamicPrograming.dir/triangle/main.cpp.o.d
+  FLAGS = -g -std=gnu++14 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.7 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/dynamicPrograming.dir
+  OBJECT_FILE_DIR = CMakeFiles/dynamicPrograming.dir/triangle
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target dynamicPrograming
@@ -99,7 +105,7 @@ build CMakeFiles/dynamicPrograming.dir/temp/uniquePaths2/main.cpp.o: CXX_COMPILE
 #############################################
 # Link the executable dynamicPrograming
 
-build dynamicPrograming: CXX_EXECUTABLE_LINKER__dynamicPrograming_Debug CMakeFiles/dynamicPrograming.dir/temp/deleteAndEarn/deleteAndEarn.cpp.o CMakeFiles/dynamicPrograming.dir/temp/deleteAndEarn/deleteAndEarnImproved.cpp.o CMakeFiles/dynamicPrograming.dir/temp/HouseRobber/houseRobber.cpp.o CMakeFiles/dynamicPrograming.dir/temp/MinCostStairs/minCostStairs.cpp.o CMakeFiles/dynamicPrograming.dir/temp/minimumPathSum/main.cpp.o CMakeFiles/dynamicPrograming.dir/temp/uniquePaths/main.cpp.o CMakeFiles/dynamicPrograming.dir/temp/uniquePaths2/main.cpp.o
+build dynamicPrograming: CXX_EXECUTABLE_LINKER__dynamicPrograming_Debug CMakeFiles/dynamicPrograming.dir/temp/deleteAndEarn/deleteAndEarn.cpp.o CMakeFiles/dynamicPrograming.dir/temp/deleteAndEarn/deleteAndEarnImproved.cpp.o CMakeFiles/dynamicPrograming.dir/temp/HouseRobber/houseRobber.cpp.o CMakeFiles/dynamicPrograming.dir/temp/MinCostStairs/minCostStairs.cpp.o CMakeFiles/dynamicPrograming.dir/temp/minimumPathSum/main.cpp.o CMakeFiles/dynamicPrograming.dir/temp/uniquePaths/main.cpp.o CMakeFiles/dynamicPrograming.dir/temp/uniquePaths2/main.cpp.o CMakeFiles/dynamicPrograming.dir/triangle/main.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.7
   OBJECT_DIR = CMakeFiles/dynamicPrograming.dir
   POST_BUILD = :
