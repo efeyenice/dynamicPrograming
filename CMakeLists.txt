@@ -9,4 +9,5 @@ add_executable(dynamicPrograming
     temp/HouseRobber/houseRobber.cpp
     temp/MinCostStairs/minCostStairs.cpp
     temp/minimumPathSum/main.cpp
-    temp/uniquePaths/main.cpp)
+    temp/uniquePaths/main.cpp
+        temp/uniquePaths2/main.cpp)
