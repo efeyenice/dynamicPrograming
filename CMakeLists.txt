@@ -11,4 +11,5 @@ add_executable(dynamicPrograming
     temp/minimumPathSum/main.cpp
     temp/uniquePaths/main.cpp
         temp/uniquePaths2/main.cpp
-        temp/triangle/main.cpp)
+        temp/triangle/main.cpp
+        minFallingPath.cpp)
